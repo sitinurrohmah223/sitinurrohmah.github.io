@@ -1,0 +1,68 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body style align="center" background:url(form.jpg) no-repeat center;>
+
+<fieldset>
+<div id="header">
+
+<table  width="40%" height="100%" border=2 align="center">
+<td align="center" background=url(form.png) no repeat;>
+	<h2><U>Form Biodata<U><h2>
+	
+	
+	</div>
+	<a href="Profil.html"></a>
+	<form action="simpan.html" method="POST" enctype="multipart/form-data">
+		<table style align="center" height="450" >
+		<td align="center">
+			<tr>
+				<td><strong>NIM</strong></td>
+				<td><input type="text" name="nim"></td>
+			</tr>
+			<tr>
+				<td><strong>Nama</strong></td>
+				<td><input type="text" name="nama"></td>
+			</tr>
+			<tr>
+				<td><strong>TTl</strong></td>
+				<td><input type="date"></td>
+			</tr>
+			<tr>
+				<td><strong>Alamat</strong></td>
+				<td><textarea name="comment" form="usrform"></textarea></td>
+			</tr>
+			<tr>
+				<td><strong>Umur</strong></td>
+				<td><input type="range" name="point" min="0"max="100"></td>
+			</tr>
+			<tr>
+				<td><strong>Warna Favorit</strong></td>
+				<td><input type="color"></td>
+			</tr>
+			<tr>
+				<td><strong>Jenis Kelamin</strong></td>
+				<td><input type="radio" name="gender" value="male" checked> Male<br>
+  <input type="radio" name="gender" value="female"> Female<br></td>
+			</tr>
+			<tr>
+				<td><strong>Ukuran Kaos</strong></td>
+				<td><select name="carlist" form="carform">
+  <option value="volvo">S</option>
+  <option value="saab">M</option>
+  <option value="opel">L</option>
+  <option value="audi">XL</option>
+</select></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td><input type="submit" value="Simpan"></td>
+			</tr>
+		</table>
+	</form>
+</table>
+</div>
+</fieldset>
+</body>
+</html>
